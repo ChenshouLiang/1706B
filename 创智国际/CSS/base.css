@@ -3,7 +3,7 @@ body,button,input,select,textarea{font:12px/1.5 arial,"\65b0\5b8b\4f53"}
 h1,h2,h3,h4,h5,h6{font-size:100%}
 address,cite,dfn,var,em,i,u{font-style:normal}
 ol,ul{list-style:none}
-a{text-decoration:none;color: #5e5e5e;}
+a{text-decoration:none;}
 a:hover{text-decoration:underline;color: #f5004b;}
 img{border:none;vertical-align:middle}
 button,input,select,textarea{font-size:100%}
