@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.psr{
+    position: relative;
+}
+.psa{
+    position: absolute;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}

@@ -1,0 +1,209 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+.las{
+    width: 1208px;
+    height: 60px;
+    background-color: #fff;
+    opacity: 0.3;
+    margin: 0 auto;
+    
+}
+.las span{
+     font-size: 21px;
+    line-height: 62px;
+    color: rgb(5, 5, 5);
+    font-weight: initial;
+}
+.shang{
+    width: 1200px;
+    height: 61px;
+    background-color: yellow;
+    margin: 0 auto;
+
+}
+.tabArea .qiye{
+    width: 204px;
+    height: 84px;
+    background: #cfdfee;
+}
+.tabArea .qiye p{
+    text-align: center;
+    line-height: 81px;
+    font-size: 20px;
+    color: #182a38;
+}
+.tabArea .ko{
+    width: 204px;
+    height: 135px;
+    background-color: #cfdfee;
+}
+
+    
+.tabArea{
+    /*border: 1px solid #000;*/
+    width: 1200px;
+    height: 1000px;
+    margin:  0 auto ;
+    overflow: hidden;
+}
+#tabTitle li{
+    background-color:#cfdfee;;
+    width: 204px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #182a38;
+    cursor: pointer;
+}
+#tabTitle li.l1{
+    background-color:  #abc6db;
+}
+#tabTitle li.l2{
+    background-color:  #abc6db;
+}
+#tabTitle li.l3{
+    background-color:  #abc6db;
+}
+#tabContent{
+    float: right;
+    clear: left;
+}
+#tabContent span{
+    width: 996px;
+    height: 200px;
+    display: none;
+    /*background-color:#f1c53f;*/
+    /*text-align: center;*/
+    /*line-height: 200px;*/
+}
+#tabContent span.show{
+       display: block;
+    position: relative;
+    top: -339px;
+    height: 781px;
+}
+#tabContent span.s1{
+    /*background-color: red;*/
+}
+
+#tabContent span.s1 .q{
+    width: 757px;
+    height: 781px;
+    /*background: yellow;*/
+    margin: 0 auto;
+}
+#tabContent span.s1 .q .a1{
+    width: 757px;
+    height: 107px;
+    /*background: green;*/
+}
+#tabContent span.s1 .q .a1 p{
+    font-size: 24px;
+    color: #656565;
+    line-height: 118px;
+    margin-right: 658px;
+}
+#tabContent span.s1 .q .z{
+    width: 368px;
+    height: 781px;
+    /*background: blue;*/
+    float: left;
+}
+#tabContent span.s1 .q .z p{
+    float: left;
+    color: #666666;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+#tabContent span.s1 .q .y{
+    width: 93px;
+    height: 781px;
+    float: right;
+}
+#tabContent span.s1 .q .y p{
+    float: right;
+    color: #666666;
+    font-size: 16px;
+    line-height: 37px;
+}
+
+#tabContent span.s2{
+    /*background-color: green;*/
+}
+#tabContent span.s2 .v1{
+    width: 757px;
+    height: 781px;
+    /*background: yellow;*/
+    margin: 0 auto;
+}
+#tabContent span.s2 .v2{
+    width: 757px;
+    height: 107px;
+    /*background: green;*/
+}
+#tabContent span.s2 .v2 p{
+    font-size: 24px;
+    color: #656565;
+    line-height: 118px;
+    margin-right: 658px;
+}
+#tabContent span.s2 .v3{
+    width: 757px;
+    height: 653px;
+    margin: 0 auto;
+    /*background: red;*/
+}
+#tabContent span.s2 .v3 b{
+    float: left;
+    color: #666666;
+    margin-bottom: 29px;
+}
+#tabContent span.s2 .v3 i{
+        float: left;
+    color: #666666;
+    font-style: normal;
+    margin-bottom: 29px;
+}
+#tabContent span.s3{
+    /*background-color: blue;*/
+}
+#tabContent span.s3 .b1{
+    width: 757px;
+    height: 781px;
+    /*background: yellow;*/
+    margin: 0 auto;
+}
+#tabContent span.s3 .b2{
+    width: 757px;
+    height: 107px;
+    /*background: green;*/
+}
+#tabContent span.s3 .b2 p{
+    font-size: 24px;
+    color: #656565;
+    line-height: 118px;
+    margin-right: 658px;
+}
+#tabContent span.s3 .b3{
+    width: 757px;
+    height: 653px;
+    margin: 0 auto;
+    /*background: red;*/
+}
+#tabContent span.s3 .b3 b{
+    color: #666666;
+}
+#tabContent span.s3 .b3 p{
+    margin-top: 28px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #666666;
+}
+    

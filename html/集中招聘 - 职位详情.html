@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/main1.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+</head>
+<body>
+    <div id="gotop" class="Gotop">
+        <img src="../images/上翻.png" >
+    </div>
+    <iframe src="../iframe/iframehead.html" frameborder="0" class="header"></iframe>
+    <div class="main">
+		<div class="main_post">
+			<table >
+				<thead>
+					<div class="main_post_title">职位详情</div>
+				</thead>
+					<tr>
+						<td class="left" style="border-left:0; ">岗位名称</td>
+						<td class="right" style="border-right:0; ">平面设计师</td>
+					</tr>
+					<tr>
+						<td  class="left" style="border-left:0; ">招聘部门</td>
+						<td  class="right" style="border-right:0; ">设计部</td>
+					</tr>
+					<tr>
+						<td  class="left" style="border-left:0; ">工作地点</td>
+						<td  class="right" style="border-right:0; ">北京</td>
+					</tr>
+					<tr>
+						<td  class="left" style="border-left:0; ">截止日期</td>
+						<td  class="right" style="border-right:0; ">2016/07</td>
+					</tr>
+					<tr>
+						<td class="left" style="border-left:0;">岗位描述</td>
+						<td class="right" style="padding:26px 0px 51px 20px;border-bottom:0;border-right:0; ">  
+						1、金融机构负责互联网金融业务发展的高层管理者<br>
+                        2、政府相关监管部门领导<br>
+                        3、电子商务、互联网企业高层管理人员<br>
+                        4、私募基金经理和投资公司合伙人<br>
+                        5、互联网金融企业创业者<br>
+                        </td>
+					</tr>
+					<tr>
+						<td class="left" style="border-left:0;border-bottom:0;">应聘要求</td>
+						<td class="right" style="padding:26px 0px 51px 20px;border-bottom:0;border-right:0;">
+						1、金融机构负责互联网金融业务发展的高层管理者<br>
+                        2、政府相关监管部门领导<br>
+                        3、电子商务、互联网企业高层管理人员<br>
+                        4、私募基金经理和投资公司合伙人<br>
+                        5、互联网金融企业创业者<br>
+						</td>
+					</tr>
+				</thead>		
+			</table>
+		</div>
+         <div class="wm2">
+                <div class="wm2_box">
+                    <img src="../images/ewm.png">
+                </div>
+                <p>扫一扫二维码关注最新质询</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var main_menu = document.getElementById('main_menu');
+        var spans = main_menu.getElementsByTagName('span');
+        var list = main_menu.getElementsByTagName('li');
+        for(var i = 0; i < spans.length; i++) {
+        var span = spans[i];
+        span.index = i;
+        span.onclick = function () {
+            for(var i = 0; i < spans.length;i++) {
+                span = spans[i];
+                span.className = "";
+            }
+            this.className = "current";
+            for(var i = 0; i < list.length; i++) {
+                var li = list[i];
+                li.className = "";
+            }
+            var index = this.index;
+            list[index].className = "current";
+        };
+    }
+    </script>
+    <script type="text/javascript">
+     window.onload = function() {
+            var goTop = $("gotop");
+            window.onscroll = function() {
+                scroll().top > 0 ? show(goTop) : hide(goTop);  
+                leader = scroll().top;  
+                console.log(scroll().top);
+            }
+            var leader = 0,target = 0,timer = null;
+            goTop.onclick = function() {
+                target = 0;
+                timer = setInterval(function() {
+                    leader = leader + (target - leader ) / 10;
+                    window.scrollTo(0,leader);
+                    if(leader == target)
+                    {
+                        clearInterval(timer);
+                    }
+                },20);
+
+            }
+
+        }
+</script>
+    <iframe src="../iframe/iframefoot.html" frameborder="0" class="header_foot"></iframe>
+</body>
+</html>
